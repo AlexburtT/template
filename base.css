@@ -2,6 +2,7 @@
 
 :root {
 	--dark: #081b29;
+	--dark-navy: #112e42;
 	--accent: #00abf0;
 	--light: #ededed;
 }
@@ -10,7 +11,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
 	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
 }
 
 body {
